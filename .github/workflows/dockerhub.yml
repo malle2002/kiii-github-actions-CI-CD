@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: mjovanovik/kii_demo-01:latest
+          tags: malle2002/kii_demo-01:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
